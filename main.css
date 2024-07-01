@@ -81,7 +81,7 @@ table td img{
     height: 30px;
 }
 
-.resultado{
+.resultado .aprovado .reprovado{
     padding: 8px;
     font-weight: bold;
     color: #fff;
@@ -91,8 +91,14 @@ table td img{
 
 .aprovado{
     background-color: #009432;
+    padding: 8px;
+    color: #fff;
+    border-radius: 3px;
 }
 
 .reprovado{
     background-color: #ec0f07;
+    padding: 8px;
+    color: #fff;
+    border-radius: 3px;
 }

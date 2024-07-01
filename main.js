@@ -2,8 +2,8 @@ const form = document.getElementById('form-atividade');
 
 const imgAprovado = '<img src="./imagens/aprovado.png" alt="Emoji celebrando" />';
 const imgReprovado = '<img src="./imagens/reprovado.png" alt="Emoji decepção" />';
-const spanAprovado = '<span class="resultado-aprovado">Aprovado</span>';
-const spanReprovado = '<span class="resultado-reprovado">Reprovado</span>';
+const spanAprovado = '<span class="aprovado">Aprovado</span>';
+const spanReprovado = '<span class="reprovado">Reprovado</span>';
 const atividade = [];
 const notas = [];
 const notaMinima = parseFloat(prompt("Digite a nota mínima"));
